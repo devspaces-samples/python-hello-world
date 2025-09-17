@@ -4,7 +4,7 @@ metadata:
 components:
   - name: python
     container:
-      image: registry.redhat.io/devspaces/udi-rhel9:3.24
+      image: registry.redhat.io/devspaces/udi-rhel9:3.25
       volumeMounts:
         - name: venv
           path: /home/user/.venv
